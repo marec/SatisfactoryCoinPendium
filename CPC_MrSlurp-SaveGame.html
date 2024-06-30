@@ -1,0 +1,1096 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fixes.css">
+  <title>Mr Slurp PipeGrep Satisfactory Savegame</title>
+  <style>
+    .card {
+      opacity: 0.01;
+    }
+    .card:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body style="min-width:100vw">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Mr Slurp PipeGrep Satisfactory Savegame (Update 3)</b></a>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide w3-center" style="max-width:1500px;" id="home">
+  <a href="assets/images/main-preview-4k.jpg" target="_blank">
+    <img alt="" class="w3-image" src="assets/images/main-preview-thumb.jpg" width="1280" style="margin-top:60px;">
+  </a>
+</header>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="keynumbers">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Info sur la save</h3>
+    <ul>
+      <li>Partie solo</li>
+      <li>Temps de jeu : ~700h</li>
+      <li>Plus grosse production : 31.5 turbo moteur/min</li>
+      <li>2312 machines (toutes sortes confondues)</li>
+      <li>~124000 murs/fondations/piliers/walkway</li>
+      <li>94Km+ de rails</li>
+      <li>74GW+ de puissance éléctrique cumulée</li>
+      <li>Statue de noix dorée obtenue sans aucun Mods</li>
+      <li>Toutes les structures visibles dans la save ont été construites à la main, sans outil de modification de masse
+        d'aucune sorte
+      </li>
+    </ul>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="prodchains">"Chaines" de productions
+      principales
+    </h3>
+    <p>Projet 1 (Setup "end game" initial): 3.375 turbo moteur/minutes + toute la chaîne de production nécessaire pour les faire. Tout sauf le pétrol coke qui est produit sur le site de Notre Dame de FICSIT. Le Petrole coke est importé pour la production d'aluminium
+    </p>
+    <p>Projet 2 (Objectif Nut): 28.125 turbo moteur/minutes à partir des produits fait tout autour de la map (sur place sont assemblés: dissipateur thermique, Unité de controle radio et Turbo Moteur). Importé : Feuilles d'alclad, feuilles de cuivres, moteurs, stator, crystaux de quartz, super calculateurs, limitateur d'IA. Toutes ces productions sont réparties au travers de la carte et connectées à un réseau de train.
+    </p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="prodchains">Outils externes</h3>
+    <ul>
+      <li><a href="https://legorin.github.io/satisfactory-calculator/calc.html#">Calculateur "Legorin"</a></li>
+      <li><a href="https://daniel2013.github.io/satisfactory/calculator">Calculateur "Daniel's"</a></li>
+      <li><a href="https://www.satisfactorytools.com">Calculateur "Satisfactory Tools"</a></li>
+      <li><a href="https://satisfactory-calculator.com/en/interactive-map#">SCIM (Satisfactory Calculator Interactive
+        Map).</a>
+      </li>
+    </ul>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="prodchains">Sauvegarde</h3>
+    <ul>
+      <li><a href="assets/saves/CPC_MrSlurp-PipeGrep-b4-NUT.zip">Save Vanilla avec exactement 1000 Tickets dans un coffre</a>
+        (manque la phase de polish finale, attendez vous à trouver quelques ratés assez facilement)
+      </li>
+      <li><a href="assets/saves/CPC_MrSlurp-PipeGrep-Visite.zip">Save Moddé (Visite officielle)</a> : <a
+        href="https://ficsit.app/mod/AHRKqyodbBkGG1" target="_blank">ExoSuite</a> + <a
+        href="https://ficsit.app/mod/F1osm4KEz7KvDT" target="_blank">Utility Signs</a></li>
+    </ul>
+  </div>
+  <!-- World map -->
+  <div class="w3-container w3-padding-32  w3-center" id="Interactive Map">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">World map</h3>
+    <div class="w3-display-container">
+      <a href="assets/images/__high_res_map.jpg" target="_blank">
+        <img alt="" class="w3-image" src="assets/images/__high_res_map_thumb.jpg" style="width:100%">
+      </a>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:22%;left:20%;"><a href="#site-NDDF">Notre Dame De
+        FICSIT</a>
+      </div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:36%;left:5%;"><a href="#site-ST">ST</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:72%;left:1%;"><a href="#site-Dubai">Dubaï</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:77%;left:31%;"><a href="#site-AI">AI</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:84%;left:58%;"><a href="#site-OlOw">OlOw</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:50%;left:83%;"><a href="#site-NUKE">NUKE</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:9%;left:75%;"><a href="#site-TWIN">TWIN</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:22%;left:85%;"><a href="#site-TOR">TOR</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:55%;left:36%;"><a href="#site-MSJ">MSJ</a></div>
+      <div class="w3-display-topleft w3-black w3-padding" style="top:34%;left:45%;"><a href="#site-RUIN">RUIN</a></div>
+    </div>
+    <p>Image construite à partir de captures d'ecran du site <a
+      href="https://satisfactory-calculator.com/en/interactive-map">Satisfactory Calculator & Interactive Map</a></p>
+  </div>
+  <!-- Factories Section -->
+  <div class="w3-container w3-padding-32" id="Factories">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Factories</h3>
+  </div>
+  <!-- Site liste 1-4 -->
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">ST</div>
+        <a href="#site-ST">
+          <img alt="" src="assets/images/st-mini.jpg" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Dubaï</div>
+        <a href="#site-Dubai">
+          <img alt="" src="assets/images/dubai-mini.jpg" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">AI</div>
+        <a href="#site-AI">
+          <img alt="" src="assets/images/ai-mini.jpg" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">OlOw</div>
+        <a href="#site-OlOw">
+          <img alt="" src="assets/images/olow-mini.jpg" style="width:100%">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Site liste 5-8 -->
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">NUKE</div>
+        <a href="#site-NUKE">
+          <img alt="" src="assets/images/nuke-mini.jpg" style="width:99%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">TOR</div>
+        <a href="#site-TOR">
+          <img alt="" src="assets/images/tor-mini.jpg" style="width:99%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">TWIN</div>
+        <a href="#site-TWIN">
+          <img alt="" src="assets/images/twin-mini.jpg" style="width:99%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">MSJ</div>
+        <a href="#site-MSJ">
+          <img alt="" src="assets/images/msj-mini.jpg" style="width:99%">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-container w3-padding-32" id="Divers">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Divers</h3>
+  </div>
+  <!-- Site liste 9-10 -->
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">RUIN</div>
+        <a href="#site-RUIN">
+          <img alt="" src="assets/images/ruin-mini.jpg" style="width:99%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Gallerie du rail</div>
+        <a href="#site-RAIL">
+          <img alt="" src="assets/images/rail-spiral-north.jpg" style="width:99%">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- NDdF -->
+  <div class="w3-container w3-padding-32" id="site-NDDF">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Notre Dame De FICSIT</h3>
+    <div class="w3-display-container">
+      <a href="assets/images/nddf-2-full.jpg" target="_blank">
+        <img alt="" class="w3-image" src="assets/images/nddf-2-full.jpg" width="1500" height="800">
+      </a>
+      <a href="assets/images/VG.gif" target="_blank">
+        <img class="w3-display-topleft w3-padding w3-image card"
+             src="assets/images/saint-ackboo-Progamer-cut.png" style="top: 12%; left: 52%;" width="7%">
+      </a>
+    </div>
+    <p>Lieu célèbre où les joueurs de Satisfactory et les adorateurs d'Ackboo viennent se recueillir (ou pas)
+    </p>
+    <p>Contient l'intégralité de la chaîne de production <a href="#prodchains">#1</a> ainsi que les chaînes de production pour les cadres modulaires lourds, les munitions (chargeurs/Nobelisk), et le charbon compacté qui alimente la centrale à turbo fuel. C'est aussi ici que les dernières étapes de la chaîne de production <a href="#prodchains">#2</a> sont installées.
+    </p>
+    <p>Contrairement à ce que certains <img alt="" src="assets/images/cpcPro.png"/> laissent croire, il ne s'agit en aucun cas d'une tentative de reproduction d'un batiment existant. L'apparence lui a donné son nom de "Notre Dame", et le "de FICSIT" s'est imposé de lui même. Le fait que cela ressemble à une cathédrale n'était même pas planifié lors de la constructiuon de la fondation, mais les nombreuses arches que cette dernière comporte m'on amené vers un design essayant de se rapprocher d'une église et paf ... ça à fait une cathédrale.
+    </p>
+    <p>
+      Le site possède 11 stations de train, 10 pouvant avoir jusqu'à 3 wagon de fret, et 1 déstinée au "train du joueur" qui comporte 2 locomotives et 7 wagons.
+      <br/>
+      Au total 8 stations de marchandises sont utilisées, dont 6 dans l'import des produits finaux pour faire les 28.125 Turbo Moteurs/min.
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 0</div>
+          <a href="assets/images/nddf-layer-0.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-0.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 1</div>
+          <a href="assets/images/nddf-layer-1.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-1.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 2</div>
+          <a href="assets/images/nddf-layer-2.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-2.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 3</div>
+          <a href="assets/images/nddf-layer-3.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-3.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-row-padding">
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 4</div>
+          <a href="assets/images/nddf-layer-4.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-4.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 5</div>
+          <a href="assets/images/nddf-layer-5.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-5.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-est-fog.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-est-fog-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-ext-read-ouest.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-ext-read-ouest-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-front.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-front-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-front-front.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-front-front-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-layer-1-hall-center-rail-hub.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-1-hall-center-rail-hub-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-layer1-hall-est.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer1-hall-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-layer-hall-ouest.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-layer-hall-ouest-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-main-hall-back-west.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-main-hall-back-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-main-hall-bad-west-2.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-main-hall-bad-west-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-main-hall-front-est.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-main-hall-front-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-main-hall-front-top-est.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-main-hall-front-top-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-main-hall-front-top-west.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-main-hall-front-top-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-main-hall-front-west.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-main-hall-front-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-oil.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-oil-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nddf-rear-layer-0-1-hall-est.jpg" target="_blank">
+            <img alt="" src="assets/images/nddf-rear-layer-0-1-hall-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ST -->
+  <div class="w3-container w3-padding-32" id="site-ST">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Start Point</h3>
+    <a href="assets/images/st-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/st-full.jpg" width="1500" height="800">
+    </a>
+    <p> Mon spawn point sur cette partie, il a été lourdement modifié pour accueillir l'usine de lingots. Produit 945 feuilles de cuivre et fournit Notre Dame pour ses besoins dans la production de turbo moteurs (dissipateur de chaleurs). 1450 lingots de fer/min sont aussi produit ici, mais non utilisé (sink)</br>Au premier plan, un échangeur féroviaire de type "Cloverleaf" (le seul de ce type sur la partie).
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/st-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/st-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/st-top-south-est.jpg" target="_blank">
+            <img alt="" src="assets/images/st-top-south-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/st-south.jpg" target="_blank">
+            <img alt="" src="assets/images/st-south-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/st-center-alley.jpg" target="_blank">
+            <img alt="" src="assets/images/st-center-alley-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Dubai -->
+  <div class="w3-container w3-padding-32" id="site-Dubai">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dubaï</h3>
+    <a href="assets/images/dubai-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/dubai-full.jpg" width="1500" height="800">
+    </a>
+    <p>Site de production des "Oscilateur à Cristaux" (33.5/min). Produit également 810 Caoutchouc/min dont 236.25/m sont consommés sur place pour les "Oscilateur à Cristaux". Le reste est destiné à un potentiel usage futur.</br>Les "Oscilateur à Cristaux" sont exportés par train vers le site "OlOw".
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/dubai-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/dubai-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/dubai-rear-south-west-1.jpg" target="_blank">
+            <img alt="" src="assets/images/dubai-rear-south-west-1-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/dubai-top-high.jpg" target="_blank">
+            <img alt="" src="assets/images/dubai-top-high-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/dubai-rear.jpg" target="_blank">
+            <img alt="" src="assets/images/dubai-rear-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/dubai-top-north.jpg" target="_blank">
+            <img alt="" src="assets/images/dubai-top-north-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/dubai-top-south.jpg" target="_blank">
+            <img alt="" src="assets/images/dubai-top-south-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- AI -->
+  <div class="w3-container w3-padding-32" id="site-AI">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">AI</h3>
+    <a href="assets/images/ai-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/ai-full.jpg" width="1500" height="800">
+    </a>
+    <p>Site de production des "Limitateur d'IA" (160/min). Produit également un excédent de lingots de Caterium (~200/min) qui sont envoyé vers OlOw. Les "Limitateur d'IA" sont distrubués via un train dédié vers Dubaï, OlOw, et Notre Dame de FICSIT.</p>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 0</div>
+          <a href="assets/images/ai-layer-0.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-layer-0.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 1</div>
+          <a href="assets/images/ai-layer-1.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-layer-1.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-far-back.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-far-back-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-front-close-west.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-front-close-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-front-far-est.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-front-far-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-front-far-north.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-front-far-north-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-front-west.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-front-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-indoor-est-wing.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-indoor-est-wing-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-indoor-top-2.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-indoor-top-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ai-indoor-west-wing.jpg" target="_blank">
+            <img alt="" src="assets/images/ai-indoor-west-wing-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- OlOw -->
+  <div class="w3-container w3-padding-32" id="site-OlOw">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">OlOw</h3>
+    <a href="assets/images/olow-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/olow-full.jpg" width="1500" height="800">
+    </a>
+    <p>Site de production des "Supers calculateurs" (15.938/min). Produit également 810 Plastique/min dont 567/min sont consommés sur place pour les "circuits imprimés" et les "Super calculateurs". Le reste est destiné à un potentiel usage futur. </br>Les "Super calculateurs" sont exportés par train vers Notre Dame de FICSIT".
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 0</div>
+          <a href="assets/images/olow-layer-0.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-layer-0.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 1</div>
+          <a href="assets/images/olow-layer-1.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-layer-1.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 2</div>
+          <a href="assets/images/olow-layer-2.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-layer-2.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 3</div>
+          <a href="assets/images/olow-layer-3.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-layer-3.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 4</div>
+          <a href="assets/images/olow-layer-4.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-layer-4.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 5-6</div>
+          <a href="assets/images/olow-layer-5-6.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-layer-5-6.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-close-est.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-close-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-close-in-1.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-close-in-1-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-close-in-2.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-close-in-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-far-est.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-far-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-front-far.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-front-far-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-front-far-west.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-front-far-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/olow-front-west.jpg" target="_blank">
+            <img alt="" src="assets/images/olow-front-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- NUKE -->
+  <div class="w3-container w3-padding-32" id="site-NUKE">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">NUKE</h3>
+    <a href="assets/images/nuke-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/nuke-full.jpg" width="1500" height="800">
+    </a>
+    <p>60 GW! ... avec ses déchets! Deux groupes de 12 réacteurs, tout le site est indépendant autant sur le réseau férré que pour l'électricité. L'ensemble des génératheurs géothermiques disponibles sur la carte sont connectés ensemble et alimentent l'usine qui produit les combustibles pour les réacteurs.<br/>Le stockage à été planifié pour stocker l'équivalent de 700h de jeu à 100% de la capacité des réacteurs. Il est rempli à environ 30% a présent.
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l5 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-front-south.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-front-south-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-front.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-front-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-in.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-in-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-reactor.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-reactor-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-rear.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-rear-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/nuke-top-front.jpg" target="_blank">
+            <img alt="" src="assets/images/nuke-top-front-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TOR -->
+  <div class="w3-container w3-padding-32" id="site-TOR">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">TOR</h3>
+    <a href="assets/images/tor-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/tor-full.jpg" width="1500" height="800">
+    </a>
+    <p>Produit 70 moteurs/min, et 72.5 stators/min. Ils sont exportés directement vers "Notre Dame de FICSIT".
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 0</div>
+          <a href="assets/images/tor-layer-0.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-layer-0.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 1</div>
+          <a href="assets/images/tor-layer-1.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-layer-1.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 2</div>
+          <a href="assets/images/tor-layer-2.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-layer-2.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Layer 3</div>
+          <a href="assets/images/tor-layer-3.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-layer-3.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-center-north.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-center-north-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-center-south.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-center-south-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-madness-1.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-madness-1-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-madness-2.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-madness-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-serenity.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-serenity-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-spiral.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-spiral-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-top-north-east.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-top-north-east-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/tor-top-south-est-2.jpg" target="_blank">
+            <img alt="" src="assets/images/tor-top-south-est-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TWIN -->
+  <div class="w3-container w3-padding-32" id="site-TWIN">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">TWIN</h3>
+    <a href="assets/images/twin-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/twin-full.jpg" width="1500" height="800">
+    </a>
+    <p>Produit 48 "Connecteurs haute vitesse"/min, ils sont exportés vers le site OLOw pour la production des "super calculateurs".
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l5 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-map-view-all.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-map-view-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-front-station-3.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-front-station-3-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-high-front-far.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-high-front-far-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-in-1.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-in-1-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-in-2.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-in-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-in-3.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-in-3-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/twin-top-rear-3.jpg" target="_blank">
+            <img alt="" src="assets/images/twin-top-rear-3-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MSJ -->
+  <div class="w3-container w3-padding-32" id="site-MSJ">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">MSJ</h3>
+    <a href="assets/images/msj-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/msj-full.jpg" width="1500" height="800">
+    </a>
+    <p>1600 lingots d'aluminium/min, dont 1200 sont convertis en ALCLAD (600/min). Importe le cuivre depuis un petit site à l'est des "Ruines". Les feuilles d'Alclad sont exportées vers "Notre Dame de FICSIT"
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-col l5 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-map-all.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-map-all.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-center.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-center-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-front-2.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-front-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-in-1.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-in-1-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-in-2.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-in-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-low-west.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-low-west-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-rail-out.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-rail-out-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-rear-factory.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-rear-factory-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-south-est.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-south-est-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-south-est-tower.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-south-est-tower-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-top-front-2.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-top-front-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/msj-top-rear.jpg" target="_blank">
+            <img alt="" src="assets/images/msj-top-rear-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RUIN -->
+  <div class="w3-container w3-padding-32" id="site-RUIN">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">RUIN</h3>
+    <a href="assets/images/ruin-full.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/ruin-full.jpg" width="1500" height="800">
+    </a>
+    <p>Les structures de ma base principale dans ma partie pendant l'update 2 du jeu. Elles ont été importées grace à un programme custom utilisant la librairie de code faite par <a href="https://github.com/Goz3rr/SatisfactorySaveEditor" target="_blank">Goz3r</a></br>C'est la seule altération de la save faite en dehors du jeu.</p>
+    <div class="w3-row-padding">
+      <div class="w3-col l5 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ruin-1.jpg" target="_blank">
+            <img alt="" src="assets/images/ruin-1-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l5 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/ruin-2.jpg" target="_blank">
+            <img alt="" src="assets/images/ruin-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RAIL -->
+  <div class="w3-container w3-padding-32" id="site-RAIL">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Rail Network</h3>
+    <a href="assets/images/rail-spiral-north.jpg" target="_blank">
+      <img alt="" class="w3-image" src="assets/images/rail-spiral-north.jpg" width="1500" height="800">
+    </a>
+    <p></p>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/rail-craters.jpg" target="_blank">
+            <img alt="" src="assets/images/rail-craters-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/rail-desert-south.jpg" target="_blank">
+            <img alt="" src="assets/images/rail-desert-south-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/rail-quartz-stop.jpg" target="_blank">
+            <img alt="" src="assets/images/rail-quartz-stop-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/rail-red-forest.jpg" target="_blank">
+            <img alt="" src="assets/images/rail-red-forest-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/rail-spiral-south.jpg" target="_blank">
+            <img alt="" src="assets/images/rail-spiral-south-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <a href="assets/images/rail-spiral-south-2.jpg" target="_blank">
+            <img alt="" src="assets/images/rail-spiral-south-2-thumb.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End page content -->
+  </div>
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-16">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                     class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+</div>
+</body>
+</html>
